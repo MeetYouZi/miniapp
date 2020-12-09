@@ -1,0 +1,13 @@
+.labelFlex {
+  text-align: left;
+}
+.label {
+  display: inline-block;
+  padding: 4rpx 6rpx;
+  background: #ccc;
+  border: 1rpx solid #f2f2f2;
+  color: #fff;
+  border-radius: 4rpx;
+  margin: 0rpx;
+  box-sizing: border-box;
+}

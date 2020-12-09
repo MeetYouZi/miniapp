@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "default",
+  "backgroundColorTop": "#fff",
+  "onReachBottomDistance": 333,
+  "navigationBarTitleText": "tag"
+}

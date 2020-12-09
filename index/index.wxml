@@ -1,0 +1,11 @@
+<view class="labelFlex" id="labelBox">
+  <view class="label userLabel" wx:for="{{labelList}}" wx:key="inx" wx:for-item="label">{{label}}</view>
+  <view class="label more" wx:if="{{showLabel===1}}" id="moreLabel" bind:tap="openMore">
+    <view>展开{{allLabel.length}}个</view>
+<!--    <image class="icon ml5" src="/static/img/i_label_down.png" />-->
+  </view>
+  <view class="label more" wx:if="{{showLabel===2}}" bind:tap="closeMore">
+    <view>收起</view>
+<!--    <image class="icon ml5" src="/static/img/i_label_up.png" />-->
+  </view>
+</view>
